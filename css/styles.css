@@ -1,0 +1,235 @@
+/*=== Общее ===*/
+:root {
+    --first-color: #212121;
+    --second-color: #FFFFFF;
+    --light-color: #757575;
+    --dark-color: #2196F3;
+    --footer-conection-color: rgba(255, 255, 255, 0.6);
+    --background-light-color: #F5F4FA;
+    --background-dark-color: #2F303A;
+    --main-font-size: 14px;
+    --minor-font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: var(--main-font-size);
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--first-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-color);
+}
+
+.list-no-style {
+    list-style: none;
+}
+
+.hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+/*=== /Общее ===*/
+
+/*=== Шапка сайта ===*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+
+.logo-color-left {
+    color: var(--dark-color);
+}
+
+.logo-color-right {
+    color: var(--first-color);
+}
+
+.logo-color-footer {
+    color:var(--second-color)
+}
+
+.header a:hover,
+.header a:focus {
+    color: var(--dark-color);
+}
+
+.studio-color {
+    color: var(--dark-color);
+}
+
+.portfolio-color {
+    color: var(--dark-color);
+}
+
+.connection a {
+    font-weight: 500;
+    font-size: var(--main-font-size);
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--light-color);
+}
+/*=== /Шапка сайта ===*/
+
+/*=== Заголовок-студия ===*/
+.main-section {
+    background: var(--background-dark-color);
+}
+
+.headline {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--minor-font-size);
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+    background: var(--dark-color);
+}
+/*=== /Заголовок-студия ===*/
+
+/*=== Описание-студия ===*/
+.topic {
+    font-weight: 700;
+    font-size: var(--main-font-size);
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-color);
+}
+
+.description {
+    font-size: var(--main-font-size);
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--light-color);
+}
+/*=== /Описание-студия ===*/
+
+/*=== Наши мастера-студия ===*/
+.our-team-section {
+    background: var(--background-light-color);
+}
+
+.our-master {
+    font-weight: 500;
+    font-size: var(--minor-font-size);
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-color);
+}
+
+.calling {
+    font-size: var(--minor-font-size);
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--light-color);
+}
+/*=== /Наши мастера-студия ===*/
+
+/*=== Контакты ===*/
+.footer {
+    background: var(--background-dark-color);
+}
+
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--main-font-size);
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: var(--dark-color);
+}
+
+.footer-connection a {
+    font-size: var(--main-font-size);
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--footer-conection-color);
+}
+/*=== /Контакты ===*/
+
+/*=== Портфолио ===*/
+.list-no-style button:hover,
+.list-no-style button:focus {
+    background-color: var(--dark-color);
+}
+
+.portfolio-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--minor-font-size);
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-color);
+}
+
+.all {
+    color: var(--second-color);
+    background-color: var(--dark-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--second-color);
+}
+
+.apps-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--first-color);
+}
+
+.apps {
+    font-size: var(--minor-font-size);
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--light-color);
+}
+/*=== /Портфолио ===*/
