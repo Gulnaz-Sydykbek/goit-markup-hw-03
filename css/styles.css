@@ -8,6 +8,7 @@
     --background-light-color: #F5F4FA;
     --background-dark-color: #2F303A;
     --line-color: #ECECEC;
+    --portfolio-line-color: #EEEEEE;
     --main-font-size: 14px;
     --minor-font-size: 16px;
 }
@@ -24,6 +25,10 @@ a {
 
 nav a {
     color: var(--first-color);
+}
+
+h1 {
+    margin: 0px;
 }
 
 h2 {
@@ -155,13 +160,14 @@ p {
 
 .headline-wrapper {
     margin-top: 0px;
-    margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
     width: 696px;
 }
 
 .headline {
+    margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
@@ -378,6 +384,7 @@ p {
 
 .portfolio-img-item {
     margin-bottom: 30px;
+    border: 1px solid var(--portfolio-line-color);
 }
 
 .portfolio-wrapper {
