@@ -36,9 +36,11 @@
     <main>
         <!-- Заголовок -->
        <section class="main-section">
-            <div class="container headline-wrapper">
-                <h1 class="headline">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="button">Заказать услугу</button>
+            <div class="container">
+                <div class="headline-wrapper">
+                    <h1 class="headline">Эффективные решения для вашего бизнеса</h1>
+                    <button type="button" class="button">Заказать услугу</button>
+                </div>
             </div>
        </section>
        <!-- /Заголовок -->
@@ -90,25 +92,33 @@
            <div class="container team-wrapper">
                 <h2 class="our-team">Наша команда</h2>
                 <ul class="list-no-style our-masters-item">
-                    <li class="">
+                    <li>
                         <img class="our-team-img" src="./img/img-person1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-                        <h3 class="our-master">Игорь Демьяненко</h3>
-                        <p class="calling">Product Designer</p>
+                        <div class="second-team-wrapper">
+                            <h3 class="our-master">Игорь Демьяненко</h3>
+                            <p class="calling">Product Designer</p>
+                        </div>
                     </li>
                     <li>
                         <img class="our-team-img" src="./img/img-person2.jpg" alt="Ольга Репина" width="270" height="260" />
-                        <h3 class="our-master">Ольга Репина</h3>
-                        <p class="calling">Frontend Developer</p>
+                        <div class="second-team-wrapper">
+                            <h3 class="our-master">Ольга Репина</h3>
+                            <p class="calling">Frontend Developer</p>
+                        </div>
                     </li>
                     <li>
                         <img class="our-team-img" src="./img/img-person3.jpg" alt="Николай Тарасов" width="270" height="260" />
-                        <h3 class="our-master">Николай Тарасов</h3>
-                        <p class="calling">Marketing</p>
+                        <div class="second-team-wrapper">
+                            <h3 class="our-master">Николай Тарасов</h3>
+                            <p class="calling">Marketing</p>
+                        </div>
                     </li>
                     <li>
                         <img class="our-team-img" src="./img/img-person4.jpg" alt="Михаил Ермаков" width="270" height="260" />
-                        <h3 class="our-master">Михаил Ермаков</h3>
-                        <p class="calling">UI Designer</p>
+                        <div class="second-team-wrapper">
+                            <h3 class="our-master">Михаил Ермаков</h3>
+                            <p class="calling">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
            </div>
@@ -120,11 +130,11 @@
         <div class="container footer-wrapper">
             <a class="logo" href="#"><span class="logo-color-left">Web</span><span class="logo-color-footer">Studio</span></a>
             <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-            <ul class="list-no-style footer-connection">
-                <li>
+            <ul class="list-no-style">
+                <li class="footer-item">
                     <a href="mailto:info@devstudio.com" class="footer-link">info@example.com</a>
                 </li>
-                <li>
+                <li class="footer-item">
                     <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
                 </li>
             </ul>
