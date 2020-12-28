@@ -83,6 +83,8 @@ p {
 /*=== Шапка сайта ===*/
 .header {
     border-bottom: 1px solid var(--line-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .logo {
@@ -117,8 +119,6 @@ p {
 
 .nav-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
     font-weight: 500;
     font-size: var(--main-font-size);
@@ -150,7 +150,7 @@ p {
 /*=== /Шапка сайта ===*/
 
 /*=== Заголовок-студия ===*/
-.main-section {
+.main-section-wrapper {
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -247,11 +247,8 @@ p {
 /*=== /Картинки ===*/
 
 /*=== Наши мастера-студия ===*/
-.our-team-section {
+.our-team-wrapper {
     background: var(--background-light-color);
-}
-
-.team-wrapper {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -293,9 +290,6 @@ p {
 /*=== Контакты (I use margin-top only in footer) ===*/
 .footer {
     background: var(--background-dark-color);
-}
-
-.footer-wrapper {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -330,7 +324,7 @@ p {
 /*=== /Контакты ===*/
 
 /*=== Портфолио ===*/
-.portfolio-section {
+.portfolio-section-wrapper {
     padding-top: 94px;
     padding-bottom: 94px;
 }
