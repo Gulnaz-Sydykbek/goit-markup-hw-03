@@ -150,7 +150,7 @@ p {
 /*=== /Шапка сайта ===*/
 
 /*=== Заголовок-студия ===*/
-.main-section-wrapper {
+.main-section {
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -324,7 +324,7 @@ p {
 /*=== /Контакты ===*/
 
 /*=== Портфолио ===*/
-.portfolio-section-wrapper {
+.portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
