@@ -81,6 +81,10 @@ p {
 /*=== /Общее ===*/
 
 /*=== Шапка сайта ===*/
+.header {
+    border-bottom: 1px solid var(--line-color);
+}
+
 .logo {
     margin-right: 93px;
 
@@ -113,6 +117,8 @@ p {
 
 .nav-link {
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-weight: 500;
     font-size: var(--main-font-size);
@@ -141,15 +147,17 @@ p {
 .connection a {
     color: var(--light-color);
 }
-
-.header {
-    border-bottom: 1px solid var(--line-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 /*=== /Шапка сайта ===*/
 
 /*=== Заголовок-студия ===*/
+.main-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background: var(--background-dark-color);
+    text-align: center;
+}
+
 .headline-wrapper {
     margin-top: 0px;
     margin-right: auto;
@@ -185,17 +193,14 @@ p {
     color: var(--second-color);
     background: var(--dark-color);
 }
-
-.main-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-    background: var(--background-dark-color);
-    text-align: center;
-}
 /*=== /Заголовок-студия ===*/
 
 /*=== Описание-студия ===*/
+.description-wrapper {
+    padding-top: 94px;
+    padding-bottom: 47px;
+}
+
 .description-item {
     display: flex;
 }
@@ -223,14 +228,14 @@ p {
     letter-spacing: 0.03em;
     color: var(--light-color);
 }
-
-.description-wrapper {
-    padding-top: 94px;
-    padding-bottom: 47px;
-}
 /*=== /Описание-студия ===*/
 
 /*=== Картинки ===*/
+.img-wrapper {
+    padding-top: 47px;
+    padding-bottom: 94px;
+}
+
 .list-of-pictures {
     margin-bottom: 50px;
 }
@@ -239,14 +244,15 @@ p {
     display: flex;
     justify-content: space-between;
 }
-
-.img-wrapper {
-    padding-top: 47px;
-    padding-bottom: 94px;
-}
 /*=== /Картинки ===*/
 
 /*=== Наши мастера-студия ===*/
+.our-team-wrapper {
+    background: var(--background-light-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .our-team {
     margin-bottom: 50px;
 }
@@ -279,15 +285,15 @@ p {
     letter-spacing: 0.03em;
     color: var(--light-color);
 }
-
-.our-team-wrapper {
-    background: var(--background-light-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 /*=== /Наши мастера-студия ===*/
 
 /*=== Контакты (I use margin-top only in footer) ===*/
+.footer {
+    background: var(--background-dark-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .address {
     margin-top: 20px;
 
@@ -314,12 +320,6 @@ p {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--footer-conection-color);
-}
-
-.footer {
-    background: var(--background-dark-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 /*=== /Контакты ===*/
 
